@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="{{ page.bg }}">
+
+    <div class="header header-fixed clearfix">
+      <div class="col col-12 p2">
+        <div class="mb4">
+          <div class="header-item">
+            <a href="/">Jase Coop</a>
+          </div>
+
+          <div class="header-item">
+            <span>Selected work</span>
+          </div>
+
+          <div class="header-item">
+            <span>{{ page.title }}</span>
+          </div>
+
+          <div class="header-item">
+            <span>{{ page.desc }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col col-12 p2 project">
+      {{ content }}
+    </div>
+  </body>
+
+</html>
