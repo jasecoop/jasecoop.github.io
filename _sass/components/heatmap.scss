@@ -5,6 +5,12 @@ body.index {
   background-repeat: no-repeat;
 }
 
+@media (max-width: 40em) {
+  body.index{
+    background: none;
+  }
+}
+
 body {
   margin: 0;
 }
