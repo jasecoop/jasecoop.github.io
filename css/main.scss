@@ -14,3 +14,9 @@
 @import "components/heatmap";
 @import "components/textblock";
 @import "components/images";
+
+.index .header-item a,
+span.email {
+  z-index: 9999;
+  position: relative;
+}
