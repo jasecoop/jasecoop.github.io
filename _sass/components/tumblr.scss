@@ -33,8 +33,16 @@ body.tumblr {
 
 .post__caption {
   position: relative;
+  text-align: center;
 }
 
 .tumblr_video_container {
   margin: 0 auto;
+}
+
+
+
+.post__caption p {
+  margin-bottom: 0;
+  margin-top: 0;
 }
