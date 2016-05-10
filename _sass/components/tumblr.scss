@@ -1,0 +1,36 @@
+.post img {
+  width: 100%;
+}
+body.tumblr {
+  background: #000;
+  color: #fff;
+}
+
+.tumblr .header-item span,
+.tumblr .header-item a, {
+  color: #fff;
+  border-bottom-color: rgba(225,225,225,.5);
+}
+
+.tumblr a {
+  color: #fff;
+}
+
+.post {
+  position: relative;
+  z-index: 1;
+  @extend .sm-col-8;
+  @extend .mx-auto;
+  @extend .mb4;
+}
+
+.permalink {
+  position: absolute;
+  text-decoration: none;
+  right: 0;
+  top: 0;
+}
+
+.post__caption {
+  position: relative;
+}
