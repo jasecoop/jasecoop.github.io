@@ -21,6 +21,7 @@ body.tumblr {
   z-index: 1;
   @extend .sm-col-8;
   @extend .mx-auto;
+  @extend .mt4;
   @extend .mb4;
 }
 
@@ -50,7 +51,7 @@ body.tumblr {
 
 .postFullWidth {
   width: 100%;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .about {
@@ -74,18 +75,22 @@ body.tumblr {
 .aboutToggle {
   display: block;
   position: fixed;
-  top: 20px;
-  right: 20px;
-  font-size: 30px;
+  top: 15px;
+  left: 15px;
+  font-size: 20px;
   color: #fff;
   z-index: 99999;
   a {
+    opacity: .5;
     text-decoration: none;
     cursor: pointer;
+    &:hover {
+      opacity: 1;
+    }
   }
 }
 
 .aboutToggle-close {
   display: none;
-  font-size: 45px;
+  font-size: 35px;
 }
