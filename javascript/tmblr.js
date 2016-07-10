@@ -1,7 +1,8 @@
 $(document).ready( function(){
   $('.aboutToggle-open').on('click', function(e) {
     e.preventDefault();
-    $('.about').show();
+    var top = $(window).scrollTop();
+    $('.about').show().css('top', top + 'px');
     $(this).hide();
     $('.aboutToggle-close').show();
   });
